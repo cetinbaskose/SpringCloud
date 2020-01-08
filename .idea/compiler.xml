@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="config-server" />
+        <module name="eureka-server" />
+        <module name="GuestServicesApplication" />
+        <module name="reservation-business-services" />
+        <module name="reservation-services" />
+        <module name="reservation-webapp" />
+        <module name="room-services" />
+        <module name="Spring-Cloud" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="guest-services" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="config-server" options="" />
+      <module name="eureka-server" options="" />
+      <module name="guest-services" options="" />
+      <module name="reservation-business-services" options="" />
+      <module name="reservation-services" options="" />
+      <module name="room-services" options="" />
+    </option>
+  </component>
+</project>
